@@ -8,7 +8,8 @@ srcDir        = "src"
 installExt    = @["nim"]
 bin           = @["asihpisetmode"]
 
-
+skipFiles     = @["Makefile"]
+skipDirs      = @["tests"]
 
 # Dependencies
 

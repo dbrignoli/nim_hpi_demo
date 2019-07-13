@@ -8,7 +8,7 @@ srcDir        = "src"
 installExt    = @["nim"]
 bin           = @["asihpisetmode"]
 
-skipFiles     = @["Makefile"]
+skipFiles     = @["Makefile", "src/test_hpi.nim"]
 skipDirs      = @["tests"]
 
 # Dependencies

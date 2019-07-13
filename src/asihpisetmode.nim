@@ -1,6 +1,6 @@
 
 import strformat
-from hpi import set_mode_ex
+from hpi/fancy as hpi import set_mode_ex
 
 let hpi_get_mode = hpi.get_mode
 

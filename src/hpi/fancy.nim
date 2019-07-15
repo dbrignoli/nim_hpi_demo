@@ -42,14 +42,6 @@ template withSubSys*(body: untyped) =
     finally:
         free(hs)
 
-# Utility block template to cleanup on exit
-
-template on_block_exit_do*(on_exit_stmt: untyped, body: untyped): void =
-    try:
-        body
-    finally:
-        on_exit_stmt
-
 # Adapter life cycle
 
 proc adapter_open*(adapter_index: uint): Adapter =
